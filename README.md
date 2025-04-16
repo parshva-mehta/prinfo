@@ -1,2 +1,0 @@
-# prinfo
-prinfo project
