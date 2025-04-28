@@ -1,1 +1,0 @@
-<% out.println(\"It works!\"); %>" > ~/prinfo/apache-tomcat-9.0.104/webapps/ROOT/hello.jsp>

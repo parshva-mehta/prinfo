@@ -1,0 +1,46 @@
+28-Apr-2025 11:30:37.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.104
+28-Apr-2025 11:30:37.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 4 2025 12:32:55 UTC
+28-Apr-2025 11:30:37.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.104.0
+28-Apr-2025 11:30:37.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+28-Apr-2025 11:30:37.457 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.4.1
+28-Apr-2025 11:30:37.457 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+28-Apr-2025 11:30:37.457 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home
+28-Apr-2025 11:30:37.457 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.2+9-78
+28-Apr-2025 11:30:37.457 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Apr-2025 11:30:37.457 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/parshvamehta/prinfo/apache-tomcat-9.0.104
+28-Apr-2025 11:30:37.457 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/parshvamehta/prinfo/apache-tomcat-9.0.104
+28-Apr-2025 11:30:37.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Apr-2025 11:30:37.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+28-Apr-2025 11:30:37.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+28-Apr-2025 11:30:37.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Apr-2025 11:30:37.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+28-Apr-2025 11:30:37.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+28-Apr-2025 11:30:37.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Apr-2025 11:30:37.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/conf/logging.properties
+28-Apr-2025 11:30:37.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Apr-2025 11:30:37.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Apr-2025 11:30:37.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Apr-2025 11:30:37.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+28-Apr-2025 11:30:37.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Apr-2025 11:30:37.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Apr-2025 11:30:37.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/parshvamehta/prinfo/apache-tomcat-9.0.104
+28-Apr-2025 11:30:37.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/parshvamehta/prinfo/apache-tomcat-9.0.104
+28-Apr-2025 11:30:37.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/temp
+28-Apr-2025 11:30:37.477 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/parshvamehta/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+28-Apr-2025 11:30:37.659 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Apr-2025 11:30:37.675 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [311] milliseconds
+28-Apr-2025 11:30:37.695 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Apr-2025 11:30:37.695 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.104]
+28-Apr-2025 11:30:37.699 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/webapps/docs]
+28-Apr-2025 11:30:37.834 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/webapps/docs] has finished in [136] ms
+28-Apr-2025 11:30:37.834 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/webapps/manager]
+28-Apr-2025 11:30:37.854 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/webapps/manager] has finished in [20] ms
+28-Apr-2025 11:30:37.855 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/webapps/examples]
+28-Apr-2025 11:30:37.976 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/webapps/examples] has finished in [121] ms
+28-Apr-2025 11:30:37.976 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/webapps/ROOT]
+28-Apr-2025 11:30:38.085 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Apr-2025 11:30:38.094 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/webapps/ROOT] has finished in [118] ms
+28-Apr-2025 11:30:38.094 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/webapps/host-manager]
+28-Apr-2025 11:30:38.104 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/webapps/host-manager] has finished in [10] ms
+28-Apr-2025 11:30:38.106 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Apr-2025 11:30:38.112 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [435] milliseconds

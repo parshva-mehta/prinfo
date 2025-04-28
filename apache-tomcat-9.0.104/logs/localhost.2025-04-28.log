@@ -1,0 +1,337 @@
+28-Apr-2025 11:30:37.973 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+28-Apr-2025 11:30:37.973 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+28-Apr-2025 11:30:37.973 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@94f6bfb')
+28-Apr-2025 16:36:11.729 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [146] in the jsp file: [/flightResults.jsp]
+Syntax error, insert "else Statement" to complete IfStatement
+143: </html>
+144: 
+145: <%
+146:     } catch(Exception e) {
+147:         out.println("Error: " + e.getMessage());
+148:         e.printStackTrace();
+149:     } finally {
+
+
+An error occurred at line: [146] in the jsp file: [/flightResults.jsp]
+Syntax error, insert "}" to complete Block
+143: </html>
+144: 
+145: <%
+146:     } catch(Exception e) {
+147:         out.println("Error: " + e.getMessage());
+148:         e.printStackTrace();
+149:     } finally {
+
+
+An error occurred at line: [326] in the generated java file: [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/work/Catalina/localhost/ROOT/org/apache/jsp/flightResults_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [327] in the generated java file: [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/work/Catalina/localhost/ROOT/org/apache/jsp/flightResults_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [146] in the jsp file: [/flightResults.jsp]
+Syntax error, insert "else Statement" to complete IfStatement
+143: </html>
+144: 
+145: <%
+146:     } catch(Exception e) {
+147:         out.println("Error: " + e.getMessage());
+148:         e.printStackTrace();
+149:     } finally {
+
+
+An error occurred at line: [146] in the jsp file: [/flightResults.jsp]
+Syntax error, insert "}" to complete Block
+143: </html>
+144: 
+145: <%
+146:     } catch(Exception e) {
+147:         out.println("Error: " + e.getMessage());
+148:         e.printStackTrace();
+149:     } finally {
+
+
+An error occurred at line: [326] in the generated java file: [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/work/Catalina/localhost/ROOT/org/apache/jsp/flightResults_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [327] in the generated java file: [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/work/Catalina/localhost/ROOT/org/apache/jsp/flightResults_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:565)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:344)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:330)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:591)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:379)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:356)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:307)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:656)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:935)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1792)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+28-Apr-2025 16:37:12.284 SEVERE [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [79] in the generated java file: [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/work/Catalina/localhost/ROOT/org/apache/jsp/flightResults_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+An error occurred at line: [138] in the jsp file: [/flightResults.jsp]
+Syntax error, insert "}" to complete Block
+135:         </tr>
+136:         <%
+137:             }
+138:         %>
+139:     </table>
+140: 
+141:     <p><a href="welcome.jsp">Back to Home</a></p>
+
+
+An error occurred at line: [138] in the jsp file: [/flightResults.jsp]
+Syntax error, insert "else Statement" to complete IfStatement
+135:         </tr>
+136:         <%
+137:             }
+138:         %>
+139:     </table>
+140: 
+141:     <p><a href="welcome.jsp">Back to Home</a></p>
+
+
+An error occurred at line: [138] in the jsp file: [/flightResults.jsp]
+Syntax error, insert "}" to complete Block
+135:         </tr>
+136:         <%
+137:             }
+138:         %>
+139:     </table>
+140: 
+141:     <p><a href="welcome.jsp">Back to Home</a></p>
+
+
+An error occurred at line: [327] in the generated java file: [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/work/Catalina/localhost/ROOT/org/apache/jsp/flightResults_jsp.java]
+Syntax error on token "}", delete this token
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [79] in the generated java file: [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/work/Catalina/localhost/ROOT/org/apache/jsp/flightResults_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+An error occurred at line: [138] in the jsp file: [/flightResults.jsp]
+Syntax error, insert "}" to complete Block
+135:         </tr>
+136:         <%
+137:             }
+138:         %>
+139:     </table>
+140: 
+141:     <p><a href="welcome.jsp">Back to Home</a></p>
+
+
+An error occurred at line: [138] in the jsp file: [/flightResults.jsp]
+Syntax error, insert "else Statement" to complete IfStatement
+135:         </tr>
+136:         <%
+137:             }
+138:         %>
+139:     </table>
+140: 
+141:     <p><a href="welcome.jsp">Back to Home</a></p>
+
+
+An error occurred at line: [138] in the jsp file: [/flightResults.jsp]
+Syntax error, insert "}" to complete Block
+135:         </tr>
+136:         <%
+137:             }
+138:         %>
+139:     </table>
+140: 
+141:     <p><a href="welcome.jsp">Back to Home</a></p>
+
+
+An error occurred at line: [327] in the generated java file: [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/work/Catalina/localhost/ROOT/org/apache/jsp/flightResults_jsp.java]
+Syntax error on token "}", delete this token
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:565)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:344)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:330)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:591)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:379)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:356)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:307)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:656)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:935)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1792)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+28-Apr-2025 16:50:40.751 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [36] in the jsp file: [/processReservation.jsp]
+The method setInt(int, int) in the type PreparedStatement is not applicable for the arguments (int, String)
+33:             pstmt.setInt(4, passengerID);
+34:             pstmt.setDouble(5, totalFare / numSeats); // divide fare per seat
+35:             pstmt.setInt(6, Integer.parseInt(flightID));
+36:             pstmt.setInt(7, accountID);
+37:             pstmt.executeUpdate();
+38:         }
+39: %>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [36] in the jsp file: [/processReservation.jsp]
+The method setInt(int, int) in the type PreparedStatement is not applicable for the arguments (int, String)
+33:             pstmt.setInt(4, passengerID);
+34:             pstmt.setDouble(5, totalFare / numSeats); // divide fare per seat
+35:             pstmt.setInt(6, Integer.parseInt(flightID));
+36:             pstmt.setInt(7, accountID);
+37:             pstmt.executeUpdate();
+38:         }
+39: %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:565)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:344)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:330)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:591)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:379)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:356)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:307)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:656)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:935)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1792)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+28-Apr-2025 16:51:00.143 SEVERE [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [26] in the jsp file: [/processReservation.jsp]
+Type mismatch: cannot convert from String to int
+23: 
+24:         // For demo, assume passengerID = 1, accountID = 1 (replace with real logic if needed)
+25:         int passengerID = 1; // You can get it from session or DB if needed
+26:         int accountID = request.getParameter("accountID"); // This will be "101"
+27: 
+28:         for (int i = 0; i < numSeats; i++) {
+29:             pstmt = conn.prepareStatement(sql);
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [26] in the jsp file: [/processReservation.jsp]
+Type mismatch: cannot convert from String to int
+23: 
+24:         // For demo, assume passengerID = 1, accountID = 1 (replace with real logic if needed)
+25:         int passengerID = 1; // You can get it from session or DB if needed
+26:         int accountID = request.getParameter("accountID"); // This will be "101"
+27: 
+28:         for (int i = 0; i < numSeats; i++) {
+29:             pstmt = conn.prepareStatement(sql);
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:565)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:344)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:330)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:591)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:379)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:356)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:307)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:656)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:935)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1792)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1623)

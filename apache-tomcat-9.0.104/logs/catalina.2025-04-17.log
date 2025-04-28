@@ -1,0 +1,113 @@
+17-Apr-2025 10:59:25.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.104
+17-Apr-2025 10:59:25.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 4 2025 12:32:55 UTC
+17-Apr-2025 10:59:25.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.104.0
+17-Apr-2025 10:59:25.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+17-Apr-2025 10:59:25.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.4
+17-Apr-2025 10:59:25.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+17-Apr-2025 10:59:25.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home
+17-Apr-2025 10:59:25.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.2+9-78
+17-Apr-2025 10:59:25.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Apr-2025 10:59:25.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/parshvamehta/prinfo/apache-tomcat-9.0.104
+17-Apr-2025 10:59:25.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/parshvamehta/prinfo/apache-tomcat-9.0.104
+17-Apr-2025 10:59:25.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Apr-2025 10:59:25.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+17-Apr-2025 10:59:25.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+17-Apr-2025 10:59:25.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+17-Apr-2025 10:59:25.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+17-Apr-2025 10:59:25.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Apr-2025 10:59:25.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Apr-2025 10:59:25.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/conf/logging.properties
+17-Apr-2025 10:59:25.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Apr-2025 10:59:25.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Apr-2025 10:59:25.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Apr-2025 10:59:25.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+17-Apr-2025 10:59:25.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+17-Apr-2025 10:59:25.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Apr-2025 10:59:25.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/parshvamehta/prinfo/apache-tomcat-9.0.104
+17-Apr-2025 10:59:25.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/parshvamehta/prinfo/apache-tomcat-9.0.104
+17-Apr-2025 10:59:25.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/temp
+17-Apr-2025 10:59:26.002 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/parshvamehta/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+17-Apr-2025 10:59:26.188 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Apr-2025 10:59:26.203 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [318] milliseconds
+17-Apr-2025 10:59:26.223 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Apr-2025 10:59:26.223 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.104]
+17-Apr-2025 10:59:26.226 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/webapps/docs]
+17-Apr-2025 10:59:26.359 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/webapps/docs] has finished in [132] ms
+17-Apr-2025 10:59:26.359 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/webapps/manager]
+17-Apr-2025 10:59:26.376 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/webapps/manager] has finished in [17] ms
+17-Apr-2025 10:59:26.377 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/webapps/examples]
+17-Apr-2025 10:59:26.489 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/webapps/examples] has finished in [112] ms
+17-Apr-2025 10:59:26.489 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/webapps/ROOT]
+17-Apr-2025 10:59:26.596 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Apr-2025 10:59:26.604 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/webapps/ROOT] has finished in [115] ms
+17-Apr-2025 10:59:26.604 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/webapps/host-manager]
+17-Apr-2025 10:59:26.613 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/webapps/host-manager] has finished in [9] ms
+17-Apr-2025 10:59:26.615 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Apr-2025 10:59:26.621 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [417] milliseconds
+17-Apr-2025 10:59:42.631 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+17-Apr-2025 10:59:42.631 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Apr-2025 10:59:42.634 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Apr-2025 10:59:42.650 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Apr-2025 10:59:42.660 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Apr-2025 10:59:42.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.104
+17-Apr-2025 10:59:42.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 4 2025 12:32:55 UTC
+17-Apr-2025 10:59:42.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.104.0
+17-Apr-2025 10:59:42.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+17-Apr-2025 10:59:42.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.4
+17-Apr-2025 10:59:42.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+17-Apr-2025 10:59:42.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home
+17-Apr-2025 10:59:42.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.2+9-78
+17-Apr-2025 10:59:42.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Apr-2025 10:59:42.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/parshvamehta/prinfo/apache-tomcat-9.0.104
+17-Apr-2025 10:59:42.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/parshvamehta/prinfo/apache-tomcat-9.0.104
+17-Apr-2025 10:59:42.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Apr-2025 10:59:42.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+17-Apr-2025 10:59:42.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+17-Apr-2025 10:59:42.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+17-Apr-2025 10:59:42.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+17-Apr-2025 10:59:42.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Apr-2025 10:59:42.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Apr-2025 10:59:42.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/conf/logging.properties
+17-Apr-2025 10:59:42.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Apr-2025 10:59:42.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Apr-2025 10:59:42.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Apr-2025 10:59:42.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+17-Apr-2025 10:59:42.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+17-Apr-2025 10:59:42.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Apr-2025 10:59:42.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/parshvamehta/prinfo/apache-tomcat-9.0.104
+17-Apr-2025 10:59:42.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/parshvamehta/prinfo/apache-tomcat-9.0.104
+17-Apr-2025 10:59:42.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/temp
+17-Apr-2025 10:59:42.865 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/parshvamehta/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+17-Apr-2025 10:59:43.033 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Apr-2025 10:59:43.047 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [276] milliseconds
+17-Apr-2025 10:59:43.063 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Apr-2025 10:59:43.063 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.104]
+17-Apr-2025 10:59:43.066 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/webapps/docs]
+17-Apr-2025 10:59:43.176 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/webapps/docs] has finished in [111] ms
+17-Apr-2025 10:59:43.176 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/webapps/manager]
+17-Apr-2025 10:59:43.193 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/webapps/manager] has finished in [17] ms
+17-Apr-2025 10:59:43.193 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/webapps/examples]
+17-Apr-2025 10:59:43.296 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/webapps/examples] has finished in [103] ms
+17-Apr-2025 10:59:43.297 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/webapps/ROOT]
+17-Apr-2025 10:59:43.393 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Apr-2025 10:59:43.400 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/webapps/ROOT] has finished in [103] ms
+17-Apr-2025 10:59:43.400 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/webapps/host-manager]
+17-Apr-2025 10:59:43.409 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/parshvamehta/prinfo/apache-tomcat-9.0.104/webapps/host-manager] has finished in [9] ms
+17-Apr-2025 10:59:43.411 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Apr-2025 10:59:43.416 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [368] milliseconds
+17-Apr-2025 18:11:17.416 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Apr-2025 18:11:17.461 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Apr-2025 18:11:17.551 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+17-Apr-2025 18:11:17.566 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+17-Apr-2025 18:11:17.671 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Apr-2025 18:11:17.755 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
